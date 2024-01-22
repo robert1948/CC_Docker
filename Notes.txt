@@ -63,7 +63,12 @@ docker-compose up --build
 docker run --name myclub_website -p 8000:8000 myclub_website:latest
 docker run --name myclub_website -p 8000:8000 -d myclub_website:latest
 
-41.37
+
+docker-compose run --rm app sh -c "python manage.py startapp core"
+docker-compose run --rm app sh -c "python manage.py makemigrations"
+
+59:00
+https://www.youtube.com/watch?v=mScd-Pc_pX0
 
 
 
