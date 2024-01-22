@@ -1,0 +1,8 @@
+File "c:\users\user\anaconda3\lib\site-packages\docker\api\client.py", line 188, in __init__
+    self._version = self._retrieve_server_version()
+  File "c:\users\user\anaconda3\lib\site-packages\docker\api\client.py", line 213, in _retrieve_server_version  
+    'Error while fetching server API version: {0}'.format(e)
+docker.errors.DockerException: Error while fetching server API version: (2, 'CreateFile', 'The system cannot find the file specified.')
+
+Please help me to solve this problem. Thanks in advance.
+```
