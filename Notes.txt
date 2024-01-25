@@ -67,6 +67,14 @@ docker run --name myclub_website -p 8000:8000 -d myclub_website:latest
 docker-compose run --rm app sh -c "python manage.py startapp core"
 docker-compose run --rm app sh -c "python manage.py makemigrations"
 
+docker-compose -f docker-compose-deploy.yml down --volumes
+docker-compose -f docker-compose-deploy.yml up --build
+docker-compose -f docker-compose-deploy.yml up
+
+docker-compose -f docker-compose-deploy.yml run --rm app sh -c "python manage.py createsuperuser"
+
+
+
 1.10.42
 https://www.youtube.com/watch?v=mScd-Pc_pX0
 
