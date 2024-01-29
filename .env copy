@@ -1,0 +1,7 @@
+DB_NAME=demo_1
+DB_USER=robert
+DB_HOST=database-1.cp6ig0sgmqkk.eu-north-1.rds.amazonaws.com
+DB_PASS=Stinkie@1948
+SECRET_KEY=changeme
+DB_PORT=5432
+```
