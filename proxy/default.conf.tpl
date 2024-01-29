@@ -1,3 +1,5 @@
+import uwsgi_params;
+
 server {
     listen ${LISTEN_PORT};
 
