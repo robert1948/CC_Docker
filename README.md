@@ -1,3 +1,3 @@
-# Deploying Django with Docker Compose01
+# Deploying Django with Docker Compose02
 
 ## Local Development
